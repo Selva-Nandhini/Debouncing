@@ -1,0 +1,62 @@
+Result Skip Results Iframe
+EDIT ON
+body {
+  margin: 0;
+  background-color: #f4df4f;
+  font-family: system-ui, Roboto, Arial, sans-serif;
+  font-size: 1.4em;
+  line-height: 1.6;
+  color: #242424;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.input-container {
+  width: 400px;
+  padding: 1em;
+}
+
+input {
+  width: 100%;
+  padding: 0.5em;
+}
+
+p {
+  word-break: break-all;
+  margin: 0.5em 0;
+}
+
+#input-value {
+  color: #ba0e51;
+}
+
+#debounce-value {
+  color: #0b9713;
+}
+
+footer {
+  text-align: center;
+  padding: 0.5rem 0;
+  background-color: #eaeaea;
+}
+
+footer p {
+  font-size: 0.75rem;
+  margin: 0.25rem 0;
+  color: #221133;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
